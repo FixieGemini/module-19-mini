@@ -11,6 +11,8 @@ module.exports = () => {
 
     // TODO: Add the correct output
     output: {
+      filename: '[name].bundle.js',
+      path: path.resolve(__dirname, 'dist'),
       
     },
 
